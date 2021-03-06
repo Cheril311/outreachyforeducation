@@ -1,5 +1,5 @@
 
-beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
+
 bs4==0.0.1
 Django==3.1.7
 Flask==1.1.2
