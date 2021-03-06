@@ -6,7 +6,6 @@ Flask==1.1.2
 ipython-genutils==0.2.0
 Jinja2==2.11.2
 json5==0.9.5
-SQLAlchemy @ file:///C:/ci/sqlalchemy_1603818908746/work
 sqlparse==0.4.1
 gunicorn==20.0.4
 sqlite==3.33.0
