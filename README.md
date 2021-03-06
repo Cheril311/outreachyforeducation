@@ -1,6 +1,6 @@
 # outreachyforeducation
 webapp for pulzion <br />
-IMPORTANT PLEASE READ ALL THE THIS BELOW BEFORE RUNNING <br />
+IMPORTANT PLEASE READ ALL THIS BELOW BEFORE RUNNING <br />
 #deployed website: https://outreachyforeducation.herokuapp.com/ <br />
 #HOWEVER we encourage to run it locally as on deployed website database permissions are with us and you will not be able to see database. <br />
 #steps to run locally: <br />
