@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='about.css') }}">
+</head>
+<style>
+
+.textbox {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  opacity: 50%;
+  position: absolute;
+  top: 140px;
+  left: 40px;
+
+}
+.textbox2 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  opacity: 50%;
+  position: absolute;
+  top: 360px;
+  left: 40px;
+}
+</style>
+<body>
+    <div class="page">
+        <ul>
+            <a href="{{ url_for('home') }}">HOME</a>
+            <a href="{{ url_for('about') }}">ABOUT</a>
+            <a href="{{ url_for('outreach') }}">OUTREACH</a>
+            <a href="{{ url_for('donate') }}">DONATE</a>
+            
+        </ul>
+        </div>
+    <div class="textbox">
+    <h2>Our Mission</h2>
+    <p>At Outreachy, we believe leadership for education is the solution. We are building a movement of leaders who will eliminate educational inequity in India.
+    </div>
+    <div class="textbox2">
+    <h2>The Educational Crisis</h2>
+    <p>The education crisis runs wide and deep. 116 million of the poorest children live in India. 55% of ten-year-olds in India cannot read basic text. 75% will not go on to college. Most of those who do are not fully equipped for life. The pandemic has exacerbated this education crisis. We need to act now. And that's what we at outreachy strive to do.</p>
+</body>
+
+</html>

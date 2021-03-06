@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outreachy</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+</head>
+<body>
+    <div class="page">
+        <ul>
+            <a href="{{ url_for('home') }}">HOME</a>
+            <a href="{{ url_for('about') }}">ABOUT</a>
+            <a href="{{ url_for('outreach') }}">OUTREACH</a>
+            <a href="{{ url_for('donate') }}">DONATE</a>
+            
+        </ul>
+        
+    </div>   
+</body>
+<footer style=" font-family: 'Gill Sans';
+    box-sizing: content-box;
+    background-color:black;
+    text-align: center;
+    color: cadetblue;}"
+     <h2>DESIGNED BY CHERIL AND TANMAY</h2>
+    </footer>
+</html>
